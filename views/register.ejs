@@ -1,0 +1,25 @@
+<%- include('partials/header') %>
+
+<div class="card">
+  <form class="" action="/register" method="POST">
+    <div class="card-body">
+      <h3 class="card-title">Register</h3>
+      <a class="btn btn-light btn-social btn-google google" href="/auth/google" role="button"><i class="fab fa-google"></i> Sign Up with Google</a>
+      <hr>
+      <h5>Or</h5>
+      <hr>
+      <div class="form-floating">
+        <input name="username" type="email" class="form-control" id="floatingInput" placeholder=" " autocomplete="off">
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating">
+        <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+      </div>
+      <button class="btn btn-primary" type="submit" name="button">Register</button>
+    </div>
+  </form>
+
+</div>
+
+<%- include('partials/footer') %>

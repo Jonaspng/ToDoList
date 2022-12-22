@@ -1,0 +1,61 @@
+body{
+  background-color: #aad8d3;
+
+}
+
+h1{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+h3{
+  text-align: center;
+
+}
+
+footer{
+  text-align: center;
+  color: grey;
+}
+
+.title{
+  text-align: center;
+  padding: 50px;
+  margin: 30px 0 0 0;
+
+}
+
+.home-btn{
+  margin: 10px;
+}
+
+.btn-primary{
+  min-width: 90px;
+  margin: 20px ;
+}
+
+.card{
+  margin: 40px auto 25px auto;
+  width: 400px;
+
+}
+
+.card-body{
+  width: 400px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.card-title{
+  margin-bottom: 20px;
+}
+
+.form-floating{
+  margin:10px;
+
+}
+
+.google{
+  width:350px;
+  font-size: 18px;
+}
